@@ -1,0 +1,29 @@
+.footercontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.footercontainer .image{
+width: 15%;
+}
+.footercontainer .footrcontent{
+    width:15%;
+    display:flex;
+    flex-direction: column;
+}
+.footercontainer .footrcontent .title{
+    color: #27A12F;
+    font-size: small;
+    font-weight: bold;
+}
+.footercontainer .footrcontent .subcontent{
+    color: #676565;
+    margin-top: 3%;
+    font-size: small;
+    font-weight: 500;
+}
+.footercontainer .footrcontent .subcontent .imageicon{
+
+    margin-right: 10%;
+}

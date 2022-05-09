@@ -8,11 +8,9 @@ const PrivateRoute = ({
 }) =>{
     const navigate = useNavigate();
     return(
-      <Route>
-          {
-              localStorage.getItem("token") ? <Component/>:navigate("/login")
-          }
-      </Route>  
+      <Route render = {()=> localStorage.getItem("token") ? <Component/>:navigate("/login")}/>
+          
+      
     )
 }
 export default PrivateRoute;
