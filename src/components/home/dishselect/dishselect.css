@@ -1,0 +1,119 @@
+.dishselectcontainer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.dishselectcontainer .buttondiv{
+    width: 80%;
+    justify-content: flex-end;
+    display: flex;
+}
+.dishselectcontainer .buttondiv .defaultbutton{
+    /* position: absolute; */
+    align-items: baseline;
+    background-color: #F6E200;
+    border: none;
+    border-radius: 15px;
+    width: 231px;
+    height: 44px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+.dishselectcontainer .dishcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dishselectcontainer .dishcontainer .datecontainer{
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.dishselectcontainer .dishcontainer .datecontainer .dateitem{
+ width:90%;
+ margin-top: 2%;
+ height: 30px;
+ border: none;
+ padding: 1%;
+}
+.dishselectcontainer .dishcontainer .datecontainer .customnDate{
+    background-color: #27A12F;
+    color: #F2F2F2;
+    margin-top: 2%;
+    padding: 5%;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 13px;
+}
+.dishselectcontainer .dishcontainer .dishitem{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+}
+.dishselectcontainer .dishcontainer .dishitem .dishtime{
+    color: #676565;
+    text-align: center;
+    margin-top: 2%;
+}
+.dishselectcontainer .dishcontainer .dishitem .dishimage{
+    margin-top: 2%;
+    background-size: cover;
+    width: 217px;
+    height: 279px;
+    border-radius: 15px;
+    
+}
+.dishselectcontainer .dishcontainer .dishitem .btn{
+   position: absolute;
+   display: flex;
+   width: 5%;
+   height: 40px;
+   border-radius: 15px;
+   background-color: #27A12F;
+   bottom: 178px;
+   justify-content: center;
+   align-items: center;
+}
+.dishselectcontainer .dishcontainer .dishitem .btn .selectd{
+    background-color: white;
+    border: none;
+}
+.dishselectcontainer .dishcontainer .dishitem .btn .notselected{
+    background-color: #27A12F;
+    border: none;
+}
+.dishselectcontainer .proceedbutton{
+    width: 223px;
+    height: 40px;
+    margin-top: 2%;
+    /* UI Properties */
+    background: #27A12F 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    border: none;
+    color: white;
+}
+.sdp {
+    --theme-color: #FBCA4C !important; /* violet color */
+    background-color: #FBFBFB !important;
+    border-radius: 2.5rem !important;
+    padding: 0.75rem !important;
+    width: 17rem !important;
+  }
+  .sdp--text {
+    color: black !important;
+}

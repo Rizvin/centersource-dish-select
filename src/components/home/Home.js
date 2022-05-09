@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import BannerForm from "./bannerform/BannerForm";
+import DishSelect from "./dishselect/DishSelect";
 import Footer from "./footer/Footer";
 import "./home.css"
 import Navbar from "./navbar/Navbar";
@@ -27,6 +28,7 @@ const Home = () =>{
                 </div>
                 <div className="textnormal">As per your recomented calorie, choose your dishes from below</div>
             </div>
+            <DishSelect/>
             <BannerForm/>
             <Footer/>
             <hr className="divider-solid" /> 
